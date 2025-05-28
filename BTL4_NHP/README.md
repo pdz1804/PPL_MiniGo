@@ -8,29 +8,39 @@ This project implements **Assignment 4: Code Generator** from the CO3005 Princip
 
 ```
 BTL4_NHP/
+├── myenv/                            # Virtual environment (ignored in VCS)
 ├── src/
-│   ├── main/minigo/
-│   │   ├── astgen/                 # From Assignment 2 (AST Generation)
-│   │   ├── checker/                # From Assignment 3 (Static Checker)
-│   │   ├── codegen/                # Assignment 4: Code Generator
-│   │   │   ├── CodeGenerator.py    # Entry class for AST traversal and code emission
-│   │   │   ├── Emitter.py          # Utility for emitting Jasmin instructions
-│   │   │   ├── Frame.py            # Manages JVM stack frame information
-│   │   │   ├── CodeGenError.py     # Custom error types (if needed)
-│   │   │   └── MachineCode.py      # Jasmin helper functions
-│   │   ├── parser/                 # Grammar & lexer
-│   │   └── utils/                  # AST node and base visitor definitions
-├── test/
-│   ├── testcases/
-│   │   ├── CodeGenSuite.py         # Main test suite (edit this)
-│   │   ├── CodeGenSuite_init.py    # Init test examples
-│   │   ├── CodeGenSuite_submit.py  # Submit test examples
-│   │   └── CodeGenSuite_trung.py   # Other tests
-│   └── solutions/                  # Reference Jasmin or expected output
-├── lib/                            # (Optional) External JARs like Jasmin.jar
-├── external/                       # Supporting tools or data
-├── run.py                          # Script to run test and generate code
-└── version 1.0.txt                 # Assignment specification info
+│   ├── main/
+│   │   └── minigo/
+│   │       ├── astgen/                 # From Assignment 2 (AST Generation)
+│   │       ├── checker/                # From Assignment 3 (Static Checker)
+│   │       ├── codegen/                # Assignment 4: Code Generator
+│   │       │   ├── CodeGenerator.py
+│   │       │   ├── Emitter.py
+│   │       │   ├── Frame.py
+│   │       │   ├── CodeGenError.py
+│   │       │   └── MachineCode.py
+│   │       ├── parser/
+│   │       └── utils/
+│
+│   ├── test/
+│   │   ├── testcases/
+│   │   │   ├── CodeGenSuite.py
+│   │   │   ├── CodeGenSuite_init.py
+│   │   │   ├── CodeGenSuite_submit.py
+│   │   │   └── CodeGenSuite_trung.py
+│   │   └── solutions/
+│
+│   ├── lib/                            # Jasmin JARs or other tools
+│   ├── external/                       # Support files or data
+│   └── run.py                          # Entry point for codegen and tests
+│
+├── submission/                         # Folder for final submission files
+├── target/                             # Compiled Jasmin/JVM output
+├── fix_docker.txt                      # Notes for Docker-related fixes
+├── java_cmd.txt                        # Java command usage examples
+├── requirements.txt                    # Python dependency list
+└── README.md                           # Project description and usage
 ```
 
 ---

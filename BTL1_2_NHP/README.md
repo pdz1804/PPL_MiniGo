@@ -7,23 +7,26 @@ This project contains the full implementation and test suites for two major assi
 ## 📁 Directory Structure
 
 ```
-BTL2_NHP/
-├── src/
-│   └── main/minigo/
-│       ├── astgen/               # Assignment 2: AST Generator
-│       │   └── ASTGenerator.py   # Generates AST from parse tree using Visitor
-│       ├── parser/               # Assignment 1: Lexer & Parser definitions
-│       │   ├── MiniGo.g4         # ANTLR grammar file for MiniGo
-│       │   └── lexererr.py       # Custom error handling for lexical errors
-│       └── utils/                # Utility definitions
-│           └── AST.py            # AST Node class definitions (do not modify)
-├── test/
-│   └── testcases/
-│       ├── LexerSuite.py         # 100+ tests for lexer rules
-│       ├── ParserSuite.py        # 100+ tests for parser rules
-│       └── ASTGenSuite.py        # 100+ tests for AST generation
-├── run.py                        # Main entry script to run generation or tests
-└── set_para.txt                  # Parameter settings
+BTL1_2_NHP/
+└── src/
+    ├── main/
+    │   └── minigo/
+    │       ├── astgen/               # Assignment 2: AST Generator
+    │       │   └── ASTGenerator.py   # Generates AST from parse tree using Visitor
+    │       ├── parser/               # Assignment 1: Lexer & Parser definitions
+    │       │   ├── MiniGo.g4         # ANTLR grammar file for MiniGo
+    │       │   └── lexererr.py       # Custom error handling for lexical errors
+    │       └── utils/                # Utility definitions
+    │           └── AST.py            # AST Node class definitions (do not modify)
+    │
+    ├── test/
+    │   └── testcases/
+    │       ├── LexerSuite.py         # 100+ tests for lexer rules
+    │       ├── ParserSuite.py        # 100+ tests for parser rules
+    │       └── ASTGenSuite.py        # 100+ tests for AST generation
+    │
+    ├── run.py                        # Main entry script to run generation or tests
+    └── set_para.txt                  # Parameter settings
 ```
 
 ---

@@ -9,24 +9,26 @@ This project implements **Assignment 3: Static Checker** from the CO3005 Princip
 ```
 BTL3_NHP/
 ├── src/
-│   └── main/minigo/
-│       ├── astgen/                # ASTGenerator from Assignment 2
-│       ├── checker/               # Static checking logic
-│       │   ├── StaticCheck.py     # Main static checker implementation (edit this)
-│       │   └── StaticError.py     # Contains predefined exception classes to raise
-│       ├── parser/                # MiniGo grammar and lexer
-│       │   └── MiniGo.g4
-│       └── utils/                 # AST and Visitor base classes
-│           ├── AST.py             # AST node structure (do not modify)
-│           └── Visitor.py         # Visitor base class (used in Assignment 2/3)
-├── test/
-│   ├── testcases/
-│   │   ├── CheckSuite.py          # Main test suite (edit this)
-│   │   └── CheckSuite_*.py        # Additional test files per group member
-│   └── solutions/                 # Expected result or ASTs
-├── run.py                         # Script to run the checker
-├── submission/                    # Folder for final submission files
-└── version 1.0.txt                # Assignment release info
+│   ├── main/
+│   │   └── minigo/
+│   │       ├── astgen/                # ASTGenerator from Assignment 2
+│   │       ├── checker/               # Static checking logic
+│   │       │   ├── StaticCheck.py     # Main static checker implementation (edit this)
+│   │       │   └── StaticError.py     # Contains predefined exception classes to raise
+│   │       ├── parser/                # MiniGo grammar and lexer
+│   │       │   └── MiniGo.g4
+│   │       └── utils/                 # AST and Visitor base classes
+│   │           ├── AST.py             # AST node structure (do not modify)
+│   │           └── Visitor.py         # Visitor base class (used in Assignment 2/3)
+│   ├── test/
+│   │   ├── testcases/
+│   │   │   ├── CheckSuite.py          # Main test suite (edit this)
+│   │   │   └── CheckSuite_*.py        # Additional test files per group member
+│   │   └── solutions/                 # Expected result or ASTs
+│   └── run.py                         # Script to run the checker
+│
+├── submission/                        # Folder for final submission files
+└── version 1.0.txt                    # Assignment release info
 ```
 
 ---
